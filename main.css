@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(94, 89,85);
+}
+
+.class{
+    background-color: rgb(243, 243, 208); color: #5baee6;
+}
+.class2{ background-color: rgb(138, 198, 238); color: rgb(33, 41, 44);
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.img-container{
+    text-align: center;
+    display: block;
+}
+
+.column {
+   flex: 33.33%;
+    padding: 5px;
+  }
+  
+.row {
+   display: flex;
+  }
+
+.img {
+transform: rotate(90deg)
+}
